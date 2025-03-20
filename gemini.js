@@ -43,7 +43,7 @@ async function generate_from_text_input(prompt = "Generate 5 names for dogs") {
     `This function will get a prompt from the caller and then it has to refine the response and send it back to the caller`
 
     
-    projectId = 'rabbito-dev'
+    projectId = 'your-project-id'
   const vertexAI = new VertexAI({project: projectId, location: 'us-central1'}); 
 
   const generativeModel = vertexAI.getGenerativeModel({
