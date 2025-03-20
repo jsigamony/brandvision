@@ -7,7 +7,7 @@ const serviceAccount = require('./service-account.json');
 // Initialize Firebase Admin with your service account
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  projectId: 'rabbito-dev',
+  // projectId: 'your-project-id',
 });
 
 // Initialize Firestore with a specific databaseId
